@@ -22,7 +22,7 @@ def copy_tenant_loader(src, dst):
         print("Error occurred while copying tenant loader")
 
 
-def reindex_artifacts(filename):
+def reindex_artifacts2(filename):
 
     """Re-indexing artifacts"""
 

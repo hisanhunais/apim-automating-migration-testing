@@ -204,7 +204,7 @@ def main():
                               "re_indexing= 1", "re_indexing= 2")
                     reindex_artifacts()
                  else:
-                    reindex_artifacts('%s/wso2am-%s/repository/conf/registry.xml' % (APIM_HOME_PATH, NEW_VERSION))
+                    reindex_artifacts2('%s/wso2am-%s/repository/conf/registry.xml' % (APIM_HOME_PATH, NEW_VERSION))
                                       # run old API Manger version with database connection
                  runAPIM(APIM_HOME_PATH, NEW_VERSION)
 
